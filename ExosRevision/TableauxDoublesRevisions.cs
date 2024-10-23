@@ -36,20 +36,20 @@ namespace ExosRevision
         * |8 |9 |10|11|                             
         * 
         * (rappel, les tableaux commencent TOUJOURS à l'indice 0)
-        * ici, la valeur 0 se trouve à la ligne "0" et la colonne "0"  -> variable[0][0]
-        *      la valeur 1 se trouve à la ligne "0" et la colonne "1"  -> variable[0][1]
-        *      la valeur 2 se trouve à la ligne "0" et la colonne "2"  -> variable[0][2]
-        *      la valeur 3 se trouve à la ligne "0" et la colonne "3"  -> variable[0][3]
-        *      la valeur 4 se trouve à la ligne "1" et la colonne "0"  -> variable[1][0]
-        *      la valeur 5 se trouve à la ligne "1" et la colonne "1"  -> variable[1][1]
-        *      la valeur 6 se trouve à la ligne "1" et la colonne "2"  -> variable[1][2]
-        *      la valeur 7 se trouve à la ligne "1" et la colonne "3"  -> variable[1][3]
-        *      la valeur 8 se trouve à la ligne "2" et la colonne "0"  -> variable[2][0]
-        *      la valeur 9 se trouve à la ligne "2" et la colonne "1"  -> variable[2][1]
-        *      la valeur 10 se trouve à la ligne "2" et la colonne "2" -> variable[2][2]
-        *      la valeur 11 se trouve à la ligne "2" et la colonne "3" -> variable[2][3]
+        * ici, la valeur 0 se trouve à la ligne "0" et la colonne "0"  -> variable[0,0]
+        *      la valeur 1 se trouve à la ligne "0" et la colonne "1"  -> variable[0,1]
+        *      la valeur 2 se trouve à la ligne "0" et la colonne "2"  -> variable[0,2]
+        *      la valeur 3 se trouve à la ligne "0" et la colonne "3"  -> variable[0,3]
+        *      la valeur 4 se trouve à la ligne "1" et la colonne "0"  -> variable[1,0]
+        *      la valeur 5 se trouve à la ligne "1" et la colonne "1"  -> variable[1,1]
+        *      la valeur 6 se trouve à la ligne "1" et la colonne "2"  -> variable[1,2]
+        *      la valeur 7 se trouve à la ligne "1" et la colonne "3"  -> variable[1,3]
+        *      la valeur 8 se trouve à la ligne "2" et la colonne "0"  -> variable[2,0]
+        *      la valeur 9 se trouve à la ligne "2" et la colonne "1"  -> variable[2,1]
+        *      la valeur 10 se trouve à la ligne "2" et la colonne "2" -> variable[2,2]
+        *      la valeur 11 se trouve à la ligne "2" et la colonne "3" -> variable[2,3]
         * 
-        * on remarque alors, qu'ici, nous avons 3 tableaux d'une taille 4, stocké dans une seule variable
+        * on remarque alors, qu'ici, nous avons 3 tableaux de taille 4, stocké dans une seule variable
         * 
         * 
         * Les opérations qu'on peut faire sur les tableaux simples, peuvent être également effectuées sur les tableaux doubles
@@ -64,7 +64,8 @@ namespace ExosRevision
         public int RecuperationValeurDoubleTableau1()
         {
             //-----Votre code ici --------    
-            
+
+
 
 
 
