@@ -33,7 +33,7 @@ namespace ExosRevision
 */
     public class SwitchRevisions
     {
-        //Ecrire une fonction qui convertis via un switch le numéro du mois ("valeur_mois") et stocke le nom mois en question dans la variable "mois_texte" (ex : 1 -> Janvier)
+        //Ecrire une fonction qui convertis via un switch le numéro du mois ("valeur_mois") et stocke le nom du mois en question dans la variable "mois_texte" (ex : 1 -> Janvier)
         //Bonus : s'il se trompe, stocker "erreur" dans la variable "mois_texte"
         public string Switch(int valeur_mois)
         {

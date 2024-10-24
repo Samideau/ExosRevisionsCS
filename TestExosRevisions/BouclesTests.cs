@@ -63,13 +63,23 @@ namespace TestExosRevisions
         }
 
         [TestMethod]
+        public void TestBoucleDoWhileSpecial()
+        {
+            //Init Variables
+            int valeur_a = -1;
+
+            int real_value = loop_rev.BoucleDoWhile(valeur_a);
+            Assert.AreEqual(11, real_value, "La valeur que la fonction renvoie n'est pas correcte !");
+        }
+
+        [TestMethod]
         public void TestBoucleDoWhileSkip()
         {
             //Init Variables
             int valeur_a = 60;
 
             int real_value = loop_rev.BoucleDoWhile(valeur_a);
-            Assert.AreEqual(valeur_a, real_value, "La valeur que la fonction renvoie n'est pas correcte !");
+            Assert.AreEqual(valeur_a + 2, real_value, "La valeur que la fonction renvoie n'est pas correcte !");
         }
 
         [TestMethod]
