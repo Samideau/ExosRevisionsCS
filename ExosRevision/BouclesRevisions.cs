@@ -77,7 +77,6 @@ namespace ExosRevision
             return valeur_a;
         }
 
-        //valeurA = 10
         //Créer une boucle do while qui va augmenter valeur_a de 2 à chaque tour de boucle, tant que valeur_a est plus petite que 5;
         public int BoucleDoWhileSpecial(int valeur_a)
         {
@@ -105,7 +104,6 @@ namespace ExosRevision
             return valeur_b;
         }
 
-        //valeurA = 0, valeurB = 60
         //Créer une boucle de votre choix qui va augmenter valeur_a de 1 à la fin de chaque tour de boucle. Diminuer la valeur de valeur_b de 1 SI valeur_a est pair à chaque tour de boucle, jusqu'à ce que valeur_a vaut 50
         //Stoppez la boucle (break) SI la valeur de valeur_b est plus petite ou égale à 40 (cette vérification doit se produire après la vérification précédente)
         public int BreakBoucle(int valeur_a, int valeur_b)
