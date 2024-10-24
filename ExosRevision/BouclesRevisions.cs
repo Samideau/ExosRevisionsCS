@@ -10,14 +10,14 @@ namespace ExosRevision
 
     ---------------------------------------------
 
-    for(initialization du compteur ; condition ; mise-à-jour du compteur)
+    for(initialisation du compteur ; condition ; mise-à-jour du compteur)
     {
         //CODE
     }
 
     ---------------------------------------------
 
-    initialization du compteur
+    initialisation du compteur
     while(condition)
     {
         //CODE
@@ -28,7 +28,7 @@ namespace ExosRevision
 
     ---------------------------------------------
 
-    initialization du compteur
+    initialisation du compteur
     do
     {
         //CODE

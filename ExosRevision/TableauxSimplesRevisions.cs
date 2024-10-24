@@ -61,7 +61,6 @@ namespace ExosRevision
             //----------------------------
         }
 
-        //tableau_defaut = {0, 1, 2, 5}
         //Créer un tableau de "int" d'une taille 4 qui va s'initialiser avec le tableau "tableau_defaut"
         //Puis retourner ce nouveau tableau
         public int[] CopyTableau(int[] tableau_defaut)
@@ -82,7 +81,7 @@ namespace ExosRevision
         * Comme vu au dessus
         * Ici, nous créons un tableau "variable" qui possède une taille de 4 et ne pourra contenir uniquement des valeurs de type "int"
         * 
-        * Nous pouvons accéder directement à chaque valeur individuellement qui compose un tableau ainsi que de les modifier
+        * Nous pouvons accéder directement à chaque valeur qui compose un tableau ainsi que de les modifier
         * Pour accéder à la toute première case qui contient la valeur 45, nous devons écrire :
         * 
         * variable[0];
